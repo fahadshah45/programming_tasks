@@ -1,36 +1,13 @@
 #include<iostream>
 using namespace std;
 main() {
-system("colour B9");
-cout<<"     ***     "<<endl;
-cout<<"     ***     "<<endl;
-cout<<"     ***     "<<endl;
-cout<<"     ***     "<<endl;
-cout<<"     ***     "<<endl;
-cout<<"     ***     "<<endl;
-cout<<"     ***     "<<endl;
-cout<<"     ***     "<<endl;
-cout<<"*****   *****"<<endl;
-cout<<"**         **"<<endl;
-cout<<"**         **"<<endl;
-cout<<"**         **"<<endl;
-cout<<"**         **"<<endl;
-cout<<"**         **"<<endl;
-cout<<"**         **"<<endl;
-cout<<"**         **"<<endl;
-cout<<"**         **"<<endl;
-cout<<"**         **"<<endl;
-cout<<"**         **"<<endl;
-cout<<"**         **"<<endl;
-cout<<"**         **"<<endl;
-cout<<"**         **"<<endl;
-cout<<"**         **"<<endl;
-cout<<"**         **"<<endl;
-cout<<"**         **"<<endl;
-cout<<"**         **"<<endl;
-cout<<"**         **"<<endl;
-cout<<" *         * "<<endl;
-cout<<"  *       *  "<<endl;
-cout<<"    *   *    "<<endl;
-cout<<"      *      "<<endl; 
+float i;
+float p;
+float c;
+cout<<"enter imposter count: ";
+cin>>i;
+cout<<"enter player count: ";
+cin>>p;
+c=(i/p)*100;
+cout<<"chance of being an imposter: "<<c;
 }

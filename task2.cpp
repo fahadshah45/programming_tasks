@@ -1,28 +1,13 @@
 #include<iostream>
 using namespace std;
 main() {
-system("color F4");
-cout<<"    *        *    "<<endl;
-cout<<"    *        *    "<<endl;
-cout<<"    *        *    "<<endl;
-cout<<"    *        *    "<<endl;
-cout<<"    *        *    "<<endl;
-cout<<"    *        *    "<<endl;
-cout<<"    *        *    "<<endl;
-cout<<" ****        **** "<<endl;
-cout<<" *              * "<<endl;
-cout<<" *              * "<<endl;
-cout<<" *              * "<<endl;
-cout<<" *              * "<<endl;
-cout<<" *              * "<<endl;
-cout<<" *              * "<<endl;
-cout<<" ****        **** "<<endl;
-cout<<"    *        *    "<<endl;
-cout<<"    *        *    "<<endl;
-cout<<"    *        *    "<<endl;
-cout<<"    *        *    "<<endl;
-cout<<"    *        *    "<<endl;
-cout<<"    *        *    "<<endl;
-cout<<"    *        *    "<<endl;
+int a;
+int b;
+int c;
+cout<<"number of minutes: ";
+cin>>a;
+cout<<"frames per second: ";
+cin>>b;
+c=(a*60)*b;
+cout<<"total number of frames: "<<c;
 }
-
